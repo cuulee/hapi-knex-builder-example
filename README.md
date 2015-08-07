@@ -10,6 +10,11 @@ node src/ --env-config config/local.json
 Server is running on http://localhost:2345
 ```
 
+## Where's the meat?!
+
+View `src/example/index.js` to see the magic working.
+View `src/middleware/index.js` to see the `knex` object added to the `request.app` object
+
 ## Examples
 
 ## Pagination
