@@ -1,0 +1,35 @@
+{
+    "mysql": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "",
+        "database": "knex_example"
+    },
+    "manifest": {
+        "connections": [
+            {
+                "port": 2345,
+                "routes": {
+                    "cors": {
+                        "origin": ["*"],
+                        "additionalHeaders": ["X-Access-Token"]
+                    }
+                }
+            }
+        ],
+        "server": {},
+        "plugins": {
+            "./src/db": null,
+            "./src/middleware": null,
+            "./src/example": null,
+            "good": {
+                "reporters": [
+                    {
+                        "reporter": "good-console",
+                        "events": { "log": "*", "response": "*", "ops": "*", "error": "*" }
+                    }
+                ]
+            }
+        }
+    }
+}

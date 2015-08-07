@@ -1,0 +1,24 @@
+{
+  "name": "hapi-knex-example",
+  "version": "1.0.0",
+  "description": "Hapi Knex Middleware Example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Monsewicz <dennismonsewicz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^1.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-nodeca": "^1.0.3",
+    "glue": "^2.1.1",
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.1",
+    "knex": "^0.8.6",
+    "minimist": "^1.1.3",
+    "mysql": "^2.8.0"
+  }
+}

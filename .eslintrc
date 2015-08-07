@@ -1,0 +1,14 @@
+{
+    "rules": {
+        "nodeca/indent": [2, "spaces", 4],
+        "quotes": [2, "single"],
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"]
+    },
+    "plugins": ["nodeca"],
+    "env": {
+        "browser": false,
+        "node": true,
+        "es6": false
+    }
+}
