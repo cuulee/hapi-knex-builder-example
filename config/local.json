@@ -8,13 +8,7 @@
     "manifest": {
         "connections": [
             {
-                "port": 2345,
-                "routes": {
-                    "cors": {
-                        "origin": ["*"],
-                        "additionalHeaders": ["X-Access-Token"]
-                    }
-                }
+                "port": 2345
             }
         ],
         "server": {},
