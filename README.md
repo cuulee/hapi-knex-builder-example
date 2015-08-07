@@ -2,11 +2,13 @@
 
 ## Setup
 
-* git clone git@github.com:dennismonsewicz/hapi-knex-middleware-example.git
-* cd hapi-knex-middleware-example
-* npm install
-* node src/ --env-config config/local.json
-* Server is running on http://localhost:2345
+```
+git clone git@github.com:dennismonsewicz/hapi-knex-middleware-example.git
+cd hapi-knex-middleware-example
+npm install
+node src/ --env-config config/local.json
+Server is running on http://localhost:2345
+```
 
 ## Examples
 
