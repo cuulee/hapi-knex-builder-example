@@ -1,9 +1,12 @@
 {
-    "mysql": {
-        "host": "127.0.0.1",
-        "user": "root",
-        "password": "",
-        "database": "knex_example"
+    "sql": {
+        "client": "mysql",
+        "connection": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "",
+            "database": "knex_example"
+        }
     },
     "manifest": {
         "connections": [
@@ -13,8 +16,7 @@
         ],
         "server": {},
         "plugins": {
-            "./src/db": null,
-            "./src/middleware": null,
+            "hapi-knex-builder": null,
             "./src/example": null,
             "good": {
                 "reporters": [

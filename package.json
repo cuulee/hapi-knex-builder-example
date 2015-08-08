@@ -17,7 +17,7 @@
     "good": "^6.3.0",
     "good-console": "^5.0.2",
     "hapi": "^8.8.1",
-    "knex": "^0.8.6",
+    "hapi-knex-builder": "^0.3.0",
     "minimist": "^1.1.3",
     "mysql": "^2.8.0"
   }
