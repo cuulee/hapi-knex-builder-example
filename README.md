@@ -1,4 +1,6 @@
 # Hapi.js Knex Middleware Example
+Example application that uses the hapi-knex-builder Hapijs plugin (https://github.com/dennismonsewicz/hapi-knex-builder)
+to aid with writing pesky SQL statements every time you need to account for pagination/sorting/etc in your routes.
 
 ## Setup
 
@@ -9,11 +11,6 @@ npm install
 node src/ --env-config config/local.json
 Server is running on http://localhost:2345
 ```
-
-## Where's the meat?!
-
-View `src/example/index.js` to see the magic working.
-View `src/middleware/index.js` to see the `knex` object added to the `request.app` object
 
 ## Examples
 
